@@ -26,5 +26,5 @@ setup(
     description="ML model to predict cardiovascular risk",
     url="https://github.com/abhikr11/Cardio_Risk_Pred",
     packages=find_packages(),  # Automatically finds all sub-packages
-    install_requires=get_requirements("requirements.txt"),  # Reads requirements from file
+    install_requires=get_requirements("requirements.txt")  # Reads requirements from file
 )
